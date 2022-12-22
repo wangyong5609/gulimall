@@ -15,5 +15,6 @@
         <module>ware</module>
         <module>product</module>
         <module>member</module>
+        <module>renren-fast</module>
     </modules>
 </project>
