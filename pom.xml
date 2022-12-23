@@ -16,5 +16,6 @@
         <module>product</module>
         <module>member</module>
         <module>renren-fast</module>
+        <module>common</module>
     </modules>
 </project>
