@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.233.129:8848
+  application:
+    name: order
