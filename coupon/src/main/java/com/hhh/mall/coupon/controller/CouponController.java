@@ -1,6 +1,7 @@
 package com.hhh.mall.coupon.controller;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,16 @@ import com.hhh.common.utils.R;
 public class CouponController {
     @Autowired
     private CouponService couponService;
+
+
+    @RequestMapping("/list/member")
+    // @RequiresPermissions("coupon:coupon:list")
+    public R memberCoupons(){
+        CouponEntity coupon = new CouponEntity();
+        coupon.setCouponName("Test");
+        return R.ok().put("coupon", Collections.singletonList(coupon));
+    }
+
 
     /**
      * 列表
