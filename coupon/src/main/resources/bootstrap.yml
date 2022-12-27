@@ -9,5 +9,6 @@ spring:
         server-addr: 192.168.233.129:8848
       config:
         file-extension: yaml
-        group: DEFAULT_GROUP
+        group: prod
         server-addr: 192.168.233.129:8848
+        namespace: e7628bfc-8525-424a-99a8-bd021cce28fa
