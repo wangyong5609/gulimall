@@ -9,6 +9,19 @@ spring:
         server-addr: 192.168.233.129:8848
       config:
         file-extension: yaml
-        group: prod
+        group: dev
         server-addr: 192.168.233.129:8848
         namespace: e7628bfc-8525-424a-99a8-bd021cce28fa
+        ext-config:
+          - data-id: mybatis.yaml
+            group: dev
+            refresh: true
+          - data-id: datasource.yaml
+            group: dev
+            refresh: true  
+          - data-id: other.yaml
+            group: dev
+            refresh: true
+
+server:
+  port: 7000
