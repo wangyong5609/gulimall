@@ -17,5 +17,6 @@
         <module>member</module>
         <module>renren-fast</module>
         <module>common</module>
+        <module>gateway</module>
     </modules>
 </project>

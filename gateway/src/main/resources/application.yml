@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes: 
+        # The Query Route Predicate Factory  当请求地址中包含参数 r，并且值匹配 qq. 正则表达式，就跳转到 https://qq.com     
+        - id: qq
+          uri: https://qq.com
+          predicates:
+            - Query=r, qq.
+
+server:
+  port: 88
