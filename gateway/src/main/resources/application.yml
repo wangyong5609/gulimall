@@ -9,6 +9,7 @@ spring:
           uri: https://qq.com
           predicates:
             - Query=r, qq.
+            
 
 server:
   port: 88
