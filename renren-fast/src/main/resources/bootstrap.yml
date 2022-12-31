@@ -7,6 +7,6 @@ spring:
         file-extension: yaml
         group: dev
         server-addr: 192.168.233.129:8848
-        namespace: 787cab9c-0586-4fa2-8c1d-5dd890b891f4
+        namespace: fbb39839-e56f-43d2-859a-61dfa16847d3
   application:
-    name: product
+    name: renren-fast
